@@ -1,0 +1,288 @@
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, a{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+h3{
+    font-size: 48px;
+}
+
+ul,li {
+    list-style: none;
+}
+
+.main-header {
+    top: 0px;
+    position: sticky;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    z-index: 999;
+}
+
+.logo {
+    margin: 1rem 2rem;
+    padding-right: 20px;
+    border-right: 1px solid #f0f0f0;
+}
+
+.navbar-main {
+    position: relative; 
+}
+
+.navbar-list {
+    position: absolute;
+    height: 60px;
+    line-height: 40px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-item,.navbar-item-relacao {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 32px 10px 16px;
+}
+
+.navbar-item-relacao {
+    padding-left: 380px;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1016px;
+    margin: 0 auto;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+.img-container1 {
+    order: 2;
+    max-width: 490px;
+}
+
+.container1-text-right {
+    text-align: left;
+}
+
+.container1-text-right h3 {
+    font-size: 64px;
+    line-height: 68px;
+    margin-bottom: 24px;
+}
+
+.container1-text-right p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container2 {
+    position: relative;
+    background-color: black;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+.container2-card {
+    position: relative;
+    background-color: #fff;
+    max-width: 392px;
+    margin-left: 10%;
+    padding: 32px;
+    margin-bottom: -400px;
+    z-index: 1;
+}
+
+.container2-card p {
+    font-style: bold;
+    letter-spacing: 1px;
+    margin-top: 24px
+}
+
+.container2-card-btn {
+    text-transform: uppercase;
+    color: #f0f0f0;
+    background-color: #0084d5;
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.container2-card-btn p {
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.container2-img {
+    position: relative;
+    top: 0;
+    width: 1184px;
+    margin: 40px 0 0 5%;
+}
+
+.container2-img img {
+    position: relative;
+    left: 500px;
+    width: 640px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container3 {
+    display: flex;
+    position: relative;
+    padding-top: 140px;
+    max-width: 1016px;
+    margin: 0 auto;
+}
+
+
+.container3-block-left {
+    max-width: 496px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 24px;
+
+}
+
+.container3-card1 h3{
+    line-height: 58px;
+    margin-bottom: 24px;
+}
+
+.container3-block-right h3{
+    font-size: 32px;
+}
+
+.container3-card2, .container3-card3, .container3-card4, .container3-card5, .container3-card6 {
+    background-color: #f0f0f0;
+    padding: 24px;
+}
+
+.container3-card3, .container3-card4, .container3-card5, .container3-card6 {
+    margin-top: 32px;
+}
+
+.elemento::after {
+    content: "  Impacto";
+    display: block;
+    position: absolute;
+    bottom: -230px;
+    left: -14%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 300px;
+    -webkit-text-stroke: 1px #f0f0f0;
+    color: transparent;
+    z-index: -1;
+    width: 100vw;
+    overflow: hidden
+}
+
+.main-footer {
+    max-width: 1224px
+}
+
+.footer-logo {
+    padding-top: 184px;
+    padding-left: 36px;
+    padding-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social li {
+    margin-top: 0;
+    margin-left: 24px;
+}
+
+.footer-sitemap {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 36px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-sitemap li+li {
+    margin-top: 16px;
+}
+
+/*icones*/
+
+.icon-linkedin {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.xpinc.com/wp-content/themes/xpinc/assets/icons/linkedin.svg);
+    vertical-align: middle;
+}
+
+.icon-instagram {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.xpinc.com/wp-content/themes/xpinc/assets/icons/instagram.svg);
+    vertical-align: middle;
+}
+
+.icon-youtube {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.xpinc.com/wp-content/themes/xpinc/assets/icons/youtube.svg);
+    vertical-align: middle;
+}
+
+.icon-glassdoor {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.xpinc.com/wp-content/themes/xpinc/assets/icons/glassdoor.svg);
+    vertical-align: middle;
+}
+
+.icon-medium {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.xpinc.com/wp-content/themes/xpinc/assets/icons/medium.svg);
+    vertical-align: middle;
+}
+
+.subfooter {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 36px;
+}
+
+.subfooter p{
+    color: #666;
+}
+
+.subfooter a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #121212;
+}
